@@ -8,12 +8,15 @@ header {
 	background-color: #5499C7;
 	text-align: center;
 	padding-top: 50px;
-	padding-bottom: 10px;
+	padding-bottom: 50px;
 }
 
 h1, h2{
 	font-family: 'Pacifico', cursive;;
 }
+
+/* header styles*/
+/*write your comments here*/
 
 header h1{
 	color: white;
@@ -28,13 +31,17 @@ header img{
 
 
 main{
-	max-width: 1200px;
+	max-width: 500px;
 	margin: 0px auto;
 	padding: 20px 20px;
 }
 
 main img{
-	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	height: auto;
 }
 
 h2{
@@ -70,4 +77,5 @@ p.caption{
 	color: #999999;
 	font-style: italic;
 	margin-top: 0;
+	margin-left: 100px;
 }
